@@ -1,0 +1,20 @@
+﻿@using CourseBookingSystem.DAL.Models
+@model IEnumerable<CourseBookingSystem.DAL.Models.Service>
+<div class="container">
+    <h2 class="text-center mb-4">Courses List <i class="fas fa-graduation-cap"></i></h2>
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@course.ServiceName</h5>
+                    </div>
+                    <div class="card-footer">
+                        <a href="@Url.Action("Details", "Course", new { id = course.ServiceId })" class="btn btn-primary btn-block">View Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

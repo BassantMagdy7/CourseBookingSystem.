@@ -1,0 +1,29 @@
+﻿@{
+    // Check if the user is authenticated
+    bool isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+<ul class="navbar-nav flex-grow-1">
+    @if (isAuthenticated)
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="account" asp-action="LogOut">
+                <i class="fas fa-sign-out-alt"></i> Logout @User.Identity.Name
+            </a>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="account" asp-action="login">
+                <i class="fas fa-sign-in-alt"></i> Login
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="account" asp-action="register">
+                <i class="fas fa-user-plus"></i> Register
+            </a>
+        </li>
+    }
+</ul>
+

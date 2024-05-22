@@ -1,0 +1,29 @@
+﻿@model (CourseBookingSystem.DAL.Models.Service service, IEnumerable<CourseBookingSystem.DAL.Models.ServiceDetail> serviceDetails)
+
+<h1>Course Details</h1>
+
+@foreach (var detail in Model.serviceDetails)
+{
+    <table class="table">
+        <tr>
+            <th>Services Name</th>
+            <td>@Model.service.ServiceName</td>
+        </tr>
+        <tr>
+            <th>Instructor Name</th>
+            <td>@detail.InstructorName</td>
+        </tr>
+        <tr>
+            <th>Duration</th>
+            <td>@detail.Duration</td>
+        </tr>
+        <tr>
+            <th>Schedule</th>
+            <td>@detail.Schedule</td>
+        </tr>
+        <tr>
+            <th>Price</th>
+            <td>@detail.Price</td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<CourseBookingSystem.DAL.Models.ServiceDetail>
+<div class="container">
+    <h2 class="text-center mb-4">Course Details <i class="fas fa-info-circle"></i></h2>
+    <div class="row">
+        @foreach (var serviceDetails in Model)
+        {
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@serviceDetails.Service.ServiceName <i class="fas fa-graduation-cap"></i></h5>
+                        <p class="card-text">Instructor Name: @serviceDetails.InstructorName</p>
+                        <p class="card-text">Duration: @serviceDetails.Duration minutes</p>
+                        <p class="card-text">Schedule: @serviceDetails.Schedule</p>
+                        <p class="card-text">Price: @serviceDetails.Price L.E</p>
+                        <a href="@Url.Action("Create", "Client")" class="btn btn-primary">Make Reservation</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
