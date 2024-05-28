@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\CourseBookingSystem\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj": {}
+    "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj": {}
   },
   "projects": {
-    "E:\\projects\\CourseBookingSystem\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj": {
+    "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj",
+        "projectUniqueName": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj",
         "projectName": "CourseBookingSystem.BLL",
-        "projectPath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj",
+        "projectPath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.BLL\\CourseBookingSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.BLL\\obj\\",
+        "outputPath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj": {
-                "projectPath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj"
+              "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj": {
+                "projectPath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj": {
+    "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
+        "projectUniqueName": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
         "projectName": "CourseBookingSystem.DAL",
-        "projectPath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
+        "projectPath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\Mega Store\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\obj\\",
+        "outputPath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mega Store\\AppData\\Roaming\\NuGet\\NuGet.Config",

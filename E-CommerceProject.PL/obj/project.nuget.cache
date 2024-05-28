@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3gfuklt7Zk1lx3guurBfzSImPWJEATADXwmaU+TACc+y35qz+/e4MSD7K5LdRzAn7HCtcn9SxGYhXvcFOAftyA==",
+  "dgSpecHash": "BLvlWtWsZgUpnMQdw11jaSK9ekzC+jgKOy0mhHfagQZUQ2EdTOSgadAIJ/XuKPDXrqUX/WU6ZdQNgaKtqmJb2g==",
   "success": true,
-  "projectFilePath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.PL\\CourseBookingSystem.PL.csproj",
+  "projectFilePath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.PL\\CourseBookingSystem.PL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mega Store\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

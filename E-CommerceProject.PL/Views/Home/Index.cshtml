@@ -2,44 +2,84 @@
     ViewData["Title"] = "Home Page";
 }
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<style>
+    .section-title {
+        color: #333;
+        border-bottom: 2px solid #333;
+        padding-bottom: 5px;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+        .section-title:hover {
+            border-color: #666;
+        }
+
+    .list-group-item {
+        background-color: #f5f5f5;
+        border-color: #ddd;
+        transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    }
+
+        .list-group-item:hover {
+            background-color: #e5e5e5;
+        }
+
+    .text-custom {
+        color: #6c757d; 
+    }
+
+    .section-custom {
+        color: #6c757d; 
+    }
+</style>
+
 <div class="container mt-5">
-    <h1 class="text-center">Welcome to <span class="font-monospace text-primary">Course Booking System</span> </h1>
-    <p class="text-center">A platform for managing course bookings and registrations.</p>
+    <h1 class="text-center mb-4">Welcome to <span class="font-monospace text-dark">Course Booking System</span> <i class="fas fa-book"></i></h1>
+    <p class="lead text-center mb-5">A platform for managing course bookings and registrations.</p>
 
-    <section id="overview">
-        <h2 class="text-primary">Overview</h2>
-        <p>The Course Booking System is a web application built with ASP.NET Core MVC, designed to facilitate course registrations and bookings. It provides a user-friendly interface for users to browse available courses, enroll in courses, and manage their bookings.</p>
-    </section>
-    <section id="architecture">
-        <h2 class="text-primary">Architecture</h2>
-        <p>The system follows an N-tier architecture to ensure modularity and maintainability. It consists of the following layers: Presentation Layer, Business Logic Layer, Data Access Layer, and Entity Layer.</p>
-    </section>
+    <div class="row">
+        <div class="col-md-6">
+            <section id="overview">
+                <h2 class="text-primary section-title mb-4">Overview</h2>
+                <p class="text-custom">The Course Booking System is a web application built with ASP.NET Core MVC, designed to facilitate course registrations and bookings. It provides a user-friendly interface for users to browse available courses, enroll in courses, and manage their bookings.</p>
+            </section>
 
-    <section id="features">
-        <h2 class="text-primary">Features</h2>
-        <ul>
-            <li>Browse and search available courses.</li>
-            <li>Register and enroll in courses.</li>
-            <li>Manage course bookings and cancellations.</li>
-            <li>View course details, including schedule and instructor information.</li>
-            <li>Secure user authentication and authorization.</li>
-            <li>Responsive design for seamless access across devices.</li>
-            <li>Client-side validations for data input.</li>
-            <li>Dynamic content updates using AJAX.</li>
-        </ul>
-    </section>
+            <section id="features" class="my-5">
+                <h2 class="text-primary section-title mb-4">Features</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-search"></i> Browse and search available courses.</li>
+                    <li class="list-group-item"><i class="fas fa-graduation-cap"></i> Register and enroll in courses.</li>
+                    <li class="list-group-item"><i class="fas fa-calendar-alt"></i> Manage course bookings and cancellations.</li>
+                    <li class="list-group-item"><i class="fas fa-info-circle"></i> View course details, including schedule and instructor information.</li>
+                    <li class="list-group-item"><i class="fas fa-lock"></i> Secure user authentication and authorization.</li>
+                    <li class="list-group-item"><i class="fas fa-mobile-alt"></i> Responsive design for seamless access across devices.</li>
+                    <li class="list-group-item"><i class="fas fa-check-circle"></i> Client-side validations for data input.</li>
+                    <li class="list-group-item"><i class="fas fa-sync"></i> Dynamic content updates using AJAX.</li>
+                </ul>
+            </section>
+        </div>
 
-    <section id="technologies">
-        <h2 class="text-primary">Technologies</h2>
-        <ul>
-            <li>ASP.NET Core MVC</li>
-            <li>Entity Framework Core</li>
-            <li>MS SQL Server</li>
-            <li>Bootstrap</li>
-            <li>jQuery</li>
-            <li>AJAX</li>
-            <li>Identity Framework for authentication and authorization</li>
-            <li>AutoMapper</li>
-        </ul>
-    </section>
+        <div class="col-md-6">
+            <section id="architecture" class="my-5">
+                <h2 class="text-primary section-title mb-4">Architecture</h2>
+                <p class="text-custom">The system follows an N-tier architecture to ensure modularity and maintainability. It consists of the following layers: Presentation Layer, Business Logic Layer, Data Access Layer, and Entity Layer.</p>
+            </section>
+
+            <section id="technologies" class="my-5">
+                <h2 class="text-primary section-title mb-4">Technologies</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fab fa-microsoft"></i> ASP.NET Core MVC</li>
+                    <li class="list-group-item"><i class="fas fa-database"></i> Entity Framework Core</li>
+                    <li class="list-group-item"><i class="fas fa-database"></i> MS SQL Server</li>
+                    <li class="list-group-item"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                    <li class="list-group-item"><i class="fab fa-js-square"></i> jQuery</li>
+                    <li class="list-group-item"><i class="fas fa-sync"></i> AJAX</li>
+                    <li class="list-group-item"><i class="fas fa-user-shield"></i> Identity Framework for authentication and authorization</li>
+                    <li class="list-group-item"><i class="fab fa-sliders-h"></i> AutoMapper</li>
+                </ul>
+            </section>
+        </div>
+    </div>
 </div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CourseBookingSystem.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e6a987a9372d090183c486eed3f7e576b25643c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CourseBookingSystem.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CourseBookingSystem.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

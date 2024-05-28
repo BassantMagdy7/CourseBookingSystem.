@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LnjtQhiNVW5vnzHZMmX93IpRpXqhcm0nZRzI99MpI/h3fbDIGRjk2HPGUItNbEHl2czHnlRrD2x1cEkmKej2hw==",
+  "dgSpecHash": "YJPdUAXrT28KP3bDxp/2POI56lgPk296gyxATOBxQ9v8zSMw/SUqaTiieT/z91bVQvf5eIrSmv6m4s0JrdzGPw==",
   "success": true,
-  "projectFilePath": "E:\\projects\\CourseBookingSystem\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
+  "projectFilePath": "E:\\projects\\CourseBookingSystemGit\\E-CommerceProject.DAL\\CourseBookingSystem.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mega Store\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Mega Store\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
