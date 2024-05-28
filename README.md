@@ -1,1 +1,2 @@
-# CourseBookingSystem.
+• Engineered a comprehensive course management system by repurposing an inventory management solution utilizing ASP.NET Core MVC, Entity Framework (database first approach), and SQL. Implemented pivotal functionalities including course creation, enrollment, assignment management, and grading, while enhancing user interaction with jQuery, AJAX, and Bootstrap
+•Employed design patterns such as Generic Repository and Unit of Work to ensure scalability and maintainability integrating client-side validations for data integrity. Leveraged AutoMapper for seamless object mapping, showcasing adeptness in full-stack development and system architecture.
